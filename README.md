@@ -1,5 +1,7 @@
 # Static Comp Challenges
 
+### Completed Challenge 1 with issue on sidebar notated
+
 This repository includes an `index.html` file that links to two CSS files:
 
 * `reset.css`: includes styles that will override most default styles provided by your browser.
