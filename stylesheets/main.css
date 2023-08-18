@@ -1,0 +1,115 @@
+body 
+{
+  margin: 0;
+  padding: 0;
+  font-family:Arial, Helvetica, sans-serif ;
+}
+
+.header
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(174, 11, 11);
+  color: white;
+  padding: 25px 20px;
+}
+
+.subheader 
+{
+  background-color: rgb(69, 69, 69);
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  clear: both;
+}
+
+.subheader a 
+{
+  color: white;
+  text-decoration: underline;
+  margin-right: 5px;
+}
+
+.left
+{
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.right
+{
+  font-size: 12px;
+}
+
+.login_link, .sub-link
+{
+  color: white;
+  text-decoration: underline;
+}
+
+.main-content 
+{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-top: 20px;
+  
+}
+
+.main-image 
+{
+  max-width: 60%;
+  height: auto;
+  margin-left: 40px;
+  margin-top: 20px;
+  flex: 1;
+}
+
+.main-text h2 
+{
+  font-size: 40px;
+  font-weight: 600; 
+}
+
+.main-text p 
+{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  margin-bottom: 20px; 
+  margin-right: 50%;
+}
+
+.sidebar
+{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 30px;
+  clear: both;
+}
+
+.sidebar img 
+{
+  max-width: 350px;
+  margin-bottom: 50px;
+}
+
+.image-name 
+{
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.footer
+{
+  background-color: rgb(69, 69, 69);
+  color: white;
+  padding: 20px;
+  align-items: center;
+  position:fixed;
+  bottom: 0;
+}
